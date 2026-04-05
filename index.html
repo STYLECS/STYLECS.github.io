@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Najmi | Unity Game Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- SCANLINE OVERLAY -->
+  <div class="scanlines"></div>
+  <div class="crt-flicker"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="pixel-bracket">[</span>
+      <span class="nav-name">NAJMI.DEV</span>
+      <span class="pixel-bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link" data-key="W">▶ HOME</a></li>
+      <li><a href="#about" class="nav-link" data-key="A">▶ ABOUT</a></li>
+      <li><a href="#skills" class="nav-link" data-key="S">▶ SKILLS</a></li>
+      <li><a href="#projects" class="nav-link" data-key="D">▶ PROJECTS</a></li>
+      <li><a href="#contact" class="nav-link" data-key="E">▶ CONTACT</a></li>
+    </ul>
+    <div class="nav-status">
+      <span class="status-dot"></span>
+      <span class="status-text">ONLINE</span>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-tag">// PLAYER ONE HAS ENTERED //</div>
+      <div class="hero-avatar-wrapper">
+        <div class="hero-avatar">
+          <div class="avatar-pixel">
+            <div class="pixel-char">
+              <!-- Pixel art character made with divs -->
+              <div class="pc-head"></div>
+              <div class="pc-body"></div>
+              <div class="pc-legs"></div>
+            </div>
+          </div>
+          <div class="avatar-ring ring1"></div>
+          <div class="avatar-ring ring2"></div>
+        </div>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line1">MUHAMMAD</span>
+        <span class="title-line2">NURUL NAJMI</span>
+        <span class="title-line3">MERTAYASA</span>
+      </h1>
+      <div class="hero-subtitle typewriter" id="typewriter"></div>
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-label">LEVEL</div>
+          <div class="stat-value">99</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">CLASS</div>
+          <div class="stat-value">DEV</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">EXP</div>
+          <div class="stat-value">MAX</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">UNITY</div>
+          <div class="stat-value">★★★</div>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-pixel btn-primary">▶ VIEW PROJECTS</a>
+        <a href="#contact" class="btn-pixel btn-secondary">▶ HIRE ME</a>
+      </div>
+      <div class="press-start-blink">— PRESS START —</div>
+    </div>
+    <div class="hero-decorations">
+      <div class="coin coin1">✦</div>
+      <div class="coin coin2">◆</div>
+      <div class="coin coin3">✦</div>
+      <div class="pixel-cloud cloud1"></div>
+      <div class="pixel-cloud cloud2"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01.</span>
+        <h2 class="section-title">PLAYER PROFILE</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card-left">
+          <div class="about-screen">
+            <div class="screen-header">
+              <span>PROFILE.EXE</span>
+              <div class="screen-dots">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="profile-line">
+                <span class="pl-key">NAME</span>
+                <span class="pl-sep">:</span>
+                <span class="pl-val">Najmi Mertayasa</span>
+              </div>
+              <div class="profile-line">
+                <span class="pl-key">ROLE</span>
+                <span class="pl-sep">:</span>
+                <span class="pl-val">Unity Game Dev</span>
+              </div>
+              <div class="profile-line">
+                <span class="pl-key">SPEC</span>
+                <span class="pl-sep">:</span>
+                <span class="pl-val">2D & 3D Games</span>
+              </div>
+              <div class="profile-line">
+                <span class="pl-key">LANG</span>
+                <span class="pl-sep">:</span>
+                <span class="pl-val">C# / Unity</span>
+              </div>
+              <div class="profile-line">
+                <span class="pl-key">LOC</span>
+                <span class="pl-sep">:</span>
+                <span class="pl-val">Indonesia 🇮🇩</span>
+              </div>
+              <div class="profile-line">
+                <span class="pl-key">STATUS</span>
+                <span class="pl-sep">:</span>
+                <span class="pl-val online-blink">AVAILABLE ▌</span>
+              </div>
+            </div>
+          </div>
+          <div class="hp-bar-container">
+            <div class="hp-label">HP <span>████████████</span> 100/100</div>
+            <div class="mp-label">MP <span>█████████░░░</span> 80/100</div>
+            <div class="xp-label">XP <span>██████████░░</span> 95/100</div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-desc">
+            Seorang <span class="highlight">Game Developer</span> yang passionate dalam menciptakan pengalaman bermain yang tak terlupakan menggunakan <span class="highlight">Unity Engine</span>.
+          </p>
+          <p class="about-desc">
+            Spesialisasi dalam pengembangan game <span class="highlight">2D & 3D</span>, dari gameplay mechanics hingga visual polish. Setiap proyek adalah quest baru yang menantang.
+          </p>
+          <p class="about-desc">
+            Dengan filosofi <span class="highlight">"fun first, polish second"</span>, saya membangun game yang tidak hanya dimainkan—tapi dirasakan.
+          </p>
+          <div class="achievement-list">
+            <div class="achievement">🏆 Unity Certified Developer</div>
+            <div class="achievement">🎮 10+ Game Projects Shipped</div>
+            <div class="achievement">⚡ Rapid Prototyping Expert</div>
+            <div class="achievement">🌐 Cross-Platform Builder</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02.</span>
+        <h2 class="section-title">SKILL TREE</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-title">⚔ ENGINE</div>
+          <div class="skill-item">
+            <div class="skill-name">Unity Engine</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="95"></div></div>
+            <div class="skill-pct">95%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Unity 2D</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="90"></div></div>
+            <div class="skill-pct">90%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Unity 3D</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="85"></div></div>
+            <div class="skill-pct">85%</div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-title">🧙 PROGRAMMING</div>
+          <div class="skill-item">
+            <div class="skill-name">C# Scripting</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="92"></div></div>
+            <div class="skill-pct">92%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Game Architecture</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="80"></div></div>
+            <div class="skill-pct">80%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Physics & Collision</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="88"></div></div>
+            <div class="skill-pct">88%</div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-title">🎨 DESIGN</div>
+          <div class="skill-item">
+            <div class="skill-name">UI/UX Design</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="78"></div></div>
+            <div class="skill-pct">78%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Pixel Art</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="85"></div></div>
+            <div class="skill-pct">85%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Shader Graph</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="70"></div></div>
+            <div class="skill-pct">70%</div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-title">🛡 TOOLS</div>
+          <div class="skill-item">
+            <div class="skill-name">Git / Version Control</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="85"></div></div>
+            <div class="skill-pct">85%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Blender 3D</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="65"></div></div>
+            <div class="skill-pct">65%</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Aseprite</div>
+            <div class="skill-bar-wrap"><div class="skill-bar" data-width="80"></div></div>
+            <div class="skill-pct">80%</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03.</span>
+        <h2 class="section-title">QUEST LOG</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card" data-index="01">
+          <div class="project-badge">FEATURED</div>
+          <div class="project-screen">
+            <div class="project-icon">🎮</div>
+            <div class="project-pixel-art pa1"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-number">#01</div>
+            <h3 class="project-title">DUNGEON CRAWLER 2D</h3>
+            <p class="project-desc">Roguelike dungeon crawler dengan procedural generation. Feature: turn-based combat, inventory system, dan 50+ enemy types.</p>
+            <div class="project-tags">
+              <span class="tag">Unity 2D</span>
+              <span class="tag">C#</span>
+              <span class="tag">Pixel Art</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-btn">▶ PLAY</a>
+              <a href="#" class="proj-btn proj-btn-ghost">&lt;/&gt; CODE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="02">
+          <div class="project-screen">
+            <div class="project-icon">🚀</div>
+            <div class="project-pixel-art pa2"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-number">#02</div>
+            <h3 class="project-title">SPACE SHOOTER 3D</h3>
+            <p class="project-desc">Arcade space shooter dengan sistem upgrade kapal, boss battles epik, dan leaderboard online.</p>
+            <div class="project-tags">
+              <span class="tag">Unity 3D</span>
+              <span class="tag">C#</span>
+              <span class="tag">Shader</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-btn">▶ PLAY</a>
+              <a href="#" class="proj-btn proj-btn-ghost">&lt;/&gt; CODE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="03">
+          <div class="project-screen">
+            <div class="project-icon">⚔️</div>
+            <div class="project-pixel-art pa3"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-number">#03</div>
+            <h3 class="project-title">PLATFORMER RPG</h3>
+            <p class="project-desc">Metroidvania platformer dengan open world eksplorasi, crafting system, dan cerita yang dalam.</p>
+            <div class="project-tags">
+              <span class="tag">Unity 2D</span>
+              <span class="tag">Tilemap</span>
+              <span class="tag">Animation</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-btn">▶ PLAY</a>
+              <a href="#" class="proj-btn proj-btn-ghost">&lt;/&gt; CODE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="04">
+          <div class="project-screen">
+            <div class="project-icon">🧩</div>
+            <div class="project-pixel-art pa4"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-number">#04</div>
+            <h3 class="project-title">PUZZLE DIMENSION</h3>
+            <p class="project-desc">Puzzle game berbasis fisika 3D dengan 100+ level, time manipulation mechanic, dan aesthetic minimalis.</p>
+            <div class="project-tags">
+              <span class="tag">Unity 3D</span>
+              <span class="tag">Physics</span>
+              <span class="tag">UI/UX</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-btn">▶ PLAY</a>
+              <a href="#" class="proj-btn proj-btn-ghost">&lt;/&gt; CODE</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04.</span>
+        <h2 class="section-title">SAVE & CONTACT</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-text">
+          <p class="contact-desc">Ready untuk kolaborasi? Mari buat game yang amazing bersama!</p>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="ci-icon">📧</span>
+              <span class="ci-label">EMAIL</span>
+              <span class="ci-val">najmi@email.com</span>
+            </div>
+            <div class="contact-info-item">
+              <span class="ci-icon">💼</span>
+              <span class="ci-label">LINKEDIN</span>
+              <span class="ci-val">/in/najmi-mertayasa</span>
+            </div>
+            <div class="contact-info-item">
+              <span class="ci-icon">🐙</span>
+              <span class="ci-label">GITHUB</span>
+              <span class="ci-val">/najmi-mertayasa</span>
+            </div>
+            <div class="contact-info-item">
+              <span class="ci-icon">🎮</span>
+              <span class="ci-label">ITCH.IO</span>
+              <span class="ci-val">najmi.itch.io</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-box">
+          <div class="form-screen-header">
+            <span>SEND_MESSAGE.EXE</span>
+            <div class="screen-dots"><span></span><span></span><span></span></div>
+          </div>
+          <div class="contact-form">
+            <div class="form-group">
+              <label class="form-label">PLAYER NAME:</label>
+              <input type="text" class="form-input" placeholder="Enter your name..." />
+            </div>
+            <div class="form-group">
+              <label class="form-label">EMAIL ADDRESS:</label>
+              <input type="email" class="form-input" placeholder="Enter your email..." />
+            </div>
+            <div class="form-group">
+              <label class="form-label">MESSAGE:</label>
+              <textarea class="form-textarea" placeholder="Type your message..."></textarea>
+            </div>
+            <button class="btn-pixel btn-primary btn-full" id="sendBtn">▶ SEND MESSAGE</button>
+            <div class="form-msg" id="formMsg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">[NAJMI.DEV]</div>
+      <div class="footer-text">© 2024 Muhammad Nurul Najmi Mertayasa</div>
+      <div class="footer-credits">MADE WITH ❤ + UNITY + C#</div>
+    </div>
+    <div class="footer-bottom">
+      <span>GAME OVER? NEVER. PRESS START TO CONTINUE...</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
