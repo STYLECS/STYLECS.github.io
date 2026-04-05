@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── TYPEWRITER EFFECT ──────────────────────
   const phrases = [
     'Unity Game Developer',
-    '2D & 3D Specialist',
+    '2D Specialist',
     'C# Programmer',
     'Game Designer',
     'Level Architect',
